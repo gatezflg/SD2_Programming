@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DBBCD338-8C7A-4E13-BC2D-B437D9F732D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_update_delete_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_update_delete_customer.Designer.cs">
+      <DependentUpon>add_update_delete_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogue.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="enquiryAvailability.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enquiryAvailability.Designer.cs">
+      <DependentUpon>enquiryAvailability.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="Member.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="processReturningGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="processReturningGame.Designer.cs">
+      <DependentUpon>processReturningGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="staffMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffMember.Designer.cs">
+      <DependentUpon>staffMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StoreAssistant.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="view_reserve_issue_game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_reserve_issue_game.Designer.cs">
+      <DependentUpon>view_reserve_issue_game.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add_update_delete_customer.resx">
+      <DependentUpon>add_update_delete_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enquiryAvailability.resx">
+      <DependentUpon>enquiryAvailability.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="processReturningGame.resx">
+      <DependentUpon>processReturningGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="staffMember.resx">
+      <DependentUpon>staffMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_reserve_issue_game.resx">
+      <DependentUpon>view_reserve_issue_game.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

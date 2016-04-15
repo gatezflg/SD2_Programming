@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1
     public class AccountTransaction
     {
 
-        //ass
+        //ass2
         int rentalFee, lateFee, memberFee;
         string transactionType;
         Member member;

@@ -123,7 +123,7 @@
             this.textBox2.Size = new System.Drawing.Size(141, 20);
             this.textBox2.TabIndex = 7;
             // 
-            // view_reserve_issue_game
+            // form_view_reserve_issue_game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -136,8 +136,9 @@
             this.Controls.Add(this.Search_By_Game);
             this.Controls.Add(this.member_ID);
             this.Controls.Add(this.listBox1);
-            this.Name = "view_reserve_issue_game";
+            this.Name = "form_view_reserve_issue_game";
             this.Text = "view_reserve_issue_game";
+            this.Load += new System.EventHandler(this.form_view_reserve_issue_game_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

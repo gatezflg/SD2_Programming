@@ -50,6 +50,11 @@ namespace WindowsFormsApplication1
 
         }
 
+        private void form_view_reserve_issue_game_Load(object sender, EventArgs e)
+        {
+
+        }
+
        
     }
 }

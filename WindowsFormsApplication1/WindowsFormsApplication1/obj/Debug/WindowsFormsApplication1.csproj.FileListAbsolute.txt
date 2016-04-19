@@ -15,3 +15,17 @@ C:\Users\gatez1511\Desktop\programmingGroupProj\WindowsFormsApplication1\Windows
 C:\Users\gatez1511\Desktop\GitHub\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\gatez1511\Desktop\GitHub\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\gatez1511\Desktop\GitHub\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_AccountTransactions.resources
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_add_update_delete_customer.resources
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_enquiryAvailability.resources
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_individualTransactions.resources
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_processReturningGame.resources
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_staffMember.resources
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_view_reserve_issue_game.resources
+C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

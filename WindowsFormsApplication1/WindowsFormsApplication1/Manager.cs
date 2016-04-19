@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
+    [Serializable]
     public class Manager:Employee
     {
 

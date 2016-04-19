@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountTransaction.cs" />
+    <Compile Include="formUpdateStaff.cs" />
+    <Compile Include="formUpdateStaff.Designer.cs" />
     <Compile Include="form_AccountTransactions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +78,8 @@
       <DependentUpon>form_individualTransactions.cs</DependentUpon>
     </Compile>
     <Compile Include="Manager.cs" />
+    <Compile Include="managerView.cs" />
+    <Compile Include="managerView.Designer.cs" />
     <Compile Include="Member.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="form_processReturningGame.cs">
@@ -100,6 +104,7 @@
     <Compile Include="form_view_reserve_issue_game.Designer.cs">
       <DependentUpon>form_view_reserve_issue_game.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="formUpdateStaff.resx" />
     <EmbeddedResource Include="form_AccountTransactions.resx">
       <DependentUpon>form_AccountTransactions.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +120,7 @@
     <EmbeddedResource Include="form_processReturningGame.resx">
       <DependentUpon>form_processReturningGame.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="managerView.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

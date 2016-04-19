@@ -290,7 +290,7 @@
             // 
             // buttonGoBack
             // 
-            this.buttonGoBack.Image = global::WindowsFormsApplication1.Properties.Resources.goBackBtn;
+            //this.buttonGoBack.Image = global::WindowsFormsApplication1.Properties.Resources.goBackBtn;
             this.buttonGoBack.Location = new System.Drawing.Point(351, 143);
             this.buttonGoBack.Name = "buttonGoBack";
             this.buttonGoBack.Size = new System.Drawing.Size(75, 78);

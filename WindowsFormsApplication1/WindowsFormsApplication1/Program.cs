@@ -29,7 +29,8 @@ namespace WindowsFormsApplication1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new form_staffMember());
+           // Application.Run(new form_staffMember());
+            Application.Run(new formOption());
         }
     }
 }

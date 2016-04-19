@@ -48,7 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountTransaction.cs" />
-    <Compile Include="formUpdateStaff.cs" />
+    <Compile Include="formOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formOption.Designer.cs">
+      <DependentUpon>formOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUpdateStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="formUpdateStaff.Designer.cs" />
     <Compile Include="form_AccountTransactions.cs">
       <SubType>Form</SubType>
@@ -78,7 +86,9 @@
       <DependentUpon>form_individualTransactions.cs</DependentUpon>
     </Compile>
     <Compile Include="Manager.cs" />
-    <Compile Include="managerView.cs" />
+    <Compile Include="managerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="managerView.Designer.cs" />
     <Compile Include="Member.cs" />
     <Compile Include="Person.cs" />
@@ -104,6 +114,9 @@
     <Compile Include="form_view_reserve_issue_game.Designer.cs">
       <DependentUpon>form_view_reserve_issue_game.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="formOption.resx">
+      <DependentUpon>formOption.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formUpdateStaff.resx" />
     <EmbeddedResource Include="form_AccountTransactions.resx">
       <DependentUpon>form_AccountTransactions.cs</DependentUpon>

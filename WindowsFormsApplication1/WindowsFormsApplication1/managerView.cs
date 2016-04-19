@@ -36,7 +36,8 @@ namespace WindowsFormsApplication1
         private void Update_Staff_click(object sender, EventArgs e)
         {
             formUpdateStaff form = new formUpdateStaff();
-            form.ShowDialog();
+            form.Show();
+            this.Hide();
 
 
          
@@ -46,5 +47,19 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void managerView_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void managerView_Load_2(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

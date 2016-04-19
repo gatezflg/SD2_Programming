@@ -30,9 +30,9 @@ C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\ob
 C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_view_reserve_issue_game.resources
 C:\Users\Qua\Desktop\Github\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
-C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
-C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.formOption.resources
 C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.formUpdateStaff.resources
 C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_AccountTransactions.resources
 C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_add_update_delete_customer.resources
@@ -44,5 +44,5 @@ C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\Windows
 C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_staffMember.resources
 C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.form_view_reserve_issue_game.resources
 C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
-C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
-C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\k00201571\Source\Repos\SD2_Programming\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

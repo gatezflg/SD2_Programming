@@ -47,12 +47,15 @@ namespace WindowsFormsApplication1
 
        public static void readAssistants()
                 {
-
+                    FileInfo aFile = new FileInfo("assistant.bin");
+                        if(aFile.Exists)
+                        { 
 
                     BinaryFormatter b4mater = new BinaryFormatter();
                     FileStream assistantsFile = new FileStream("assistants.bin", FileMode.Open, FileAccess.Read);
                     Program.staffList = b4mater.Deserialize(assistantsFile) as ArrayList;
                     assistantsFile.Close();
+                        }
 
                 }
 
